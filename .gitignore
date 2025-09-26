@@ -1,14 +1,22 @@
+# builds y compilados en cualquier subcarpeta
 **/build/
 **/dist/
 **/out/
 **/target/
 **/nbbuild/
 **/nbdist/
+*.class
+*.jar
+
+# NetBeans (privado)
 **/nbproject/private/
+**/.nb-gradle/
+
+# Otros IDEs
 **/.idea/
 **/.vscode/
 **/*.iml
-*.class
-*.jar
+
+# SO
 .DS_Store
 Thumbs.db
